@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">PermissionActivityResult</string>
+
+    <!-- Main -->
+    <string name="request_one_permission">Request one permission</string>
+    <string name="request_multiple_permissions">Request multiple permissions</string>
+
+    <!-- PermissionDialog -->
+    <string name="grant_permission">Grant Permission</string>
+    <string name="permission_required">Permission required</string>
+    <string name="camera_regular_description">This app needs access to your camera so that your friends can see you in a call.</string>
+    <string name="microphone_regular_description">This app needs access to your microphone so that your friends can hear you in a call.</string>
+    <string name="phone_call_regular_permission">This app need phone calling permission so that you can talk to your friends.</string>
+    <string name="permanently_declined_description">It seems that you permanently declined %1$s permission. You can go to the app settings to grant it.</string>
+    <string name="camera">camera</string>
+    <string name="microphone">microphone</string>
+    <string name="phone_calling">phone calling</string>
 </resources>
