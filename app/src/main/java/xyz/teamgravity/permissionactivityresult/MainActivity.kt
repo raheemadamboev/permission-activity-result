@@ -10,6 +10,7 @@ import androidx.compose.ui.Modifier
 import xyz.teamgravity.permissionactivityresult.ui.theme.PermissionActivityResultTheme
 
 class MainActivity : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -18,6 +19,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
+                    MainScreen(this::shouldShowRequestPermissionRationale) // it returns true, if permission is never denied
                 }
             }
         }
